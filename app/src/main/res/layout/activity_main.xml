@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <ImageView
+            android:contentDescription="@string/you_tube"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:src="@drawable/youtube"
@@ -42,16 +43,19 @@
         <LinearLayout
             android:layout_width="390dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
             <TextView
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="20dp"
+                android:layout_weight="1"
                 android:text="@string/title"
                 android:textColor="@color/white"
-                />
+                tools:ignore="TextSizeCheck" />
 
             <ImageView
+                android:contentDescription="@string/bar_down"
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/baseline_keyboard_arrow_down_24"
@@ -61,137 +65,286 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="TextSizeCheck">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="11sp"
                 android:text="@string/_11_views_6d_ago"
-                android:textColor="#786E6E"/>
+                android:textColor="#9E9E9E"
+                android:textSize="11sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="#TeamPixel #MadeByGoogle"
-                android:textColor="#1976D2"
+                android:text="@string/teampixel"
+                android:textColor="#42A5F5"
                 android:textSize="11sp" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginStart="3dp"
+                android:contentDescription="@string/insert_link"
                 android:src="@drawable/baseline_insert_link_24"
-                android:layout_gravity="center"/>
+                tools:ignore="ImageContrastCheck" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="350dp"
             android:layout_height="50dp"
-            android:orientation="horizontal"
             android:layout_marginStart="10dp"
+            android:baselineAligned="false"
             android:gravity="center"
-            >
+            android:orientation="horizontal"
+            tools:ignore="TextSizeCheck">
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="5dp"
-                >
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_thumb_up_alt_24"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/thumb_up"
+                    android:src="@drawable/baseline_thumb_up_alt_24" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="1"
                     android:layout_gravity="center"
-                    />
+                    android:text="@string/_1"
+                    android:textColor="@color/white" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="5dp"
-                >
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_thumb_down_alt_24"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/thumb_down"
+                    android:src="@drawable/baseline_thumb_down_alt_24" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="Dislike"
                     android:layout_gravity="center"
-                    />
+                    android:text="@string/dislike"
+                    android:textColor="@color/white" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="5dp"
-                >
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,VisualLintBounds">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_share_24"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/share"
+                    android:src="@drawable/baseline_share_24" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="Share"
                     android:layout_gravity="center"
-                    />
+                    android:text="@string/sharing"
+                    android:textColor="@color/white" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="5dp"
-                >
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_file_download_24"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/downloading"
+                    android:src="@drawable/baseline_file_download_24" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="Download"
                     android:layout_gravity="center"
-                    />
+                    android:text="@string/download"
+                    android:textColor="@color/white" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="5dp"
-                >
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_save_alt_24"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/saveing"
+                    android:src="@drawable/baseline_save_alt_24" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="Save"
                     android:layout_gravity="center"
-                    />
+                    android:text="@string/save"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
         </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            app:shapeAppearanceOverlay="@style/circle"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/img"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rene_ritchie"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subscribe"
+                android:textColor="#FF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_329k_subscribers"
+                android:textColor="#685D5D"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/join"
+                android:textColor="#0080FF" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#473F3F" />
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/comments"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_keyboard_double_arrow_down_24"
+            android:layout_marginEnd="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/img"
+            app:shapeAppearanceOverlay="@style/circle"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black"
+            android:hint="@string/add_a_comment"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:paddingStart="10dp"
+            android:textSize="11sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:contentDescription="@string/you_tube"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/youtube"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+
     </LinearLayout>
 </LinearLayout>

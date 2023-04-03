@@ -2,4 +2,24 @@
     <string name="app_name">You Tube</string>
     <string name="title"><![CDATA[Google Pixel & Pixel Buds Pro - Am I Pixelized?]]></string>
     <string name="_11_views_6d_ago">11 views   6d ago</string>
+    <string name="you_tube">You Tube</string>
+    <string name="bar_down">bar down</string>
+    <string name="teampixel">#TeamPixel #MadeByGoogle</string>
+    <string name="insert_link">insert link</string>
+    <string name="thumb_up">thumb-up</string>
+    <string name="_1">1</string>
+    <string name="thumb_down">thumb-down</string>
+    <string name="dislike">Dislike</string>
+    <string name="share">Share</string>
+    <string name="sharing">Share</string>
+    <string name="downloading">downloading</string>
+    <string name="download">Download</string>
+    <string name="saveing">save</string>
+    <string name="save">Save</string>
+    <string name="rene_ritchie">Rene Ritchie</string>
+    <string name="subscribe">SUBSCRIBE</string>
+    <string name="_329k_subscribers">329K subscribers</string>
+    <string name="join">JOIN</string>
+    <string name="comments">Comments</string>
+    <string name="add_a_comment">Add a comment…</string>
 </resources>
