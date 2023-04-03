@@ -14,7 +14,7 @@
     <string name="sharing">Share</string>
     <string name="downloading">downloading</string>
     <string name="download">Download</string>
-    <string name="saveing">save</string>
+    <string name="saving">save</string>
     <string name="save">Save</string>
     <string name="rene_ritchie">Rene Ritchie</string>
     <string name="subscribe">SUBSCRIBE</string>
@@ -22,4 +22,5 @@
     <string name="join">JOIN</string>
     <string name="comments">Comments</string>
     <string name="add_a_comment">Add a comment…</string>
+    <string name="doubled">Double</string>
 </resources>

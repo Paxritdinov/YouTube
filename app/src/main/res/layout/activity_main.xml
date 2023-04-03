@@ -109,7 +109,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                tools:ignore="UseCompoundDrawables">
+                tools:ignore="UseCompoundDrawables,VisualLintBounds">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                tools:ignore="UseCompoundDrawables">
+                tools:ignore="UseCompoundDrawables,VisualLintBounds">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -178,7 +178,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                tools:ignore="UseCompoundDrawables">
+                tools:ignore="UseCompoundDrawables,VisualLintBounds">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -201,13 +201,13 @@
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                tools:ignore="UseCompoundDrawables">
+                tools:ignore="UseCompoundDrawables,VisualLintBounds">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:contentDescription="@string/saveing"
+                    android:contentDescription="@string/saving"
                     android:src="@drawable/baseline_save_alt_24" />
 
                 <TextView
@@ -220,19 +220,21 @@
 
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="TextSizeCheck">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:adjustViewBounds="true"
-            app:shapeAppearanceOverlay="@style/circle"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/img"/>
+            app:shapeAppearanceOverlay="@style/circle"
+            app:srcCompat="@drawable/img" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -250,7 +252,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/subscribe"
-                android:textColor="#FF0000" />
+                android:textColor="#D32F2F" />
         </LinearLayout>
 
         <LinearLayout
@@ -264,14 +266,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_329k_subscribers"
-                android:textColor="#685D5D"
+                android:textColor="#9E9E9E"
                 android:textSize="11sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/join"
-                android:textColor="#0080FF" />
+                android:textColor="#0028FF" />
         </LinearLayout>
 
     </LinearLayout>
@@ -287,7 +289,8 @@
         android:layout_marginTop="7dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
         <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -295,6 +298,7 @@
             android:text="@string/comments"
             android:textColor="@color/white"/>
         <ImageView
+            android:contentDescription="@string/doubled"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_keyboard_double_arrow_down_24"
@@ -306,9 +310,7 @@
         android:layout_marginStart="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-
+        android:orientation="horizontal">
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -326,10 +328,11 @@
             android:layout_marginEnd="20dp"
             android:background="@color/black"
             android:hint="@string/add_a_comment"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
             android:paddingStart="10dp"
-            android:textSize="11sp" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="11sp"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck,VisualLintTextFieldSize" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="9dp"
@@ -345,6 +348,5 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             />
-
     </LinearLayout>
 </LinearLayout>
