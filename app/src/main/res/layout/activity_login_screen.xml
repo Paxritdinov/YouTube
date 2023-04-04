@@ -120,68 +120,64 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="950dp"
+            android:layout_height="785dp"
             android:layout_marginTop="250dp"
-            android:orientation="vertical"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:orientation="vertical">
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:orientation="horizontal"
                 android:background="@color/white"
-                >
+                android:orientation="horizontal">
 
                 <TextView
-                    android:layout_margin="5dp"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
                     android:text="Matchweek 29"
                     android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="center|start"
                     android:textSize="20sp"
-                    />
+                    android:textStyle="bold" />
+
                 <com.google.android.material.imageview.ShapeableImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    app:srcCompat="@drawable/pl"
                     android:layout_gravity="center"
                     android:layout_marginEnd="10dp"
-                    />
+                    app:srcCompat="@drawable/pl" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
+                android:layout_margin="5dp"
                 android:background="#E8DEDE"
-                android:orientation="horizontal"
                 android:gravity="center|start"
-                >
+                android:orientation="horizontal">
 
                 <TextView
-                    android:layout_marginStart="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:text="Saturday 01 Apr 2023"
                     android:textColor="#322E2E"
-                    android:textSize="12sp"
-                    />
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="800dp"
+                android:layout_height="673dp"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -198,8 +194,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -223,8 +219,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -233,8 +229,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -242,8 +238,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -258,8 +254,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -275,11 +271,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -296,8 +293,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -321,8 +318,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -331,8 +328,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -340,8 +337,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -356,8 +353,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -373,11 +370,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -394,8 +392,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -419,8 +417,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -429,8 +427,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -438,8 +436,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -454,8 +452,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -471,11 +469,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -492,8 +491,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -517,8 +516,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -527,8 +526,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -536,8 +535,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -552,8 +551,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -569,11 +568,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -590,8 +590,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -615,8 +615,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -625,8 +625,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -634,8 +634,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -650,8 +650,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -667,11 +667,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -688,8 +689,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -713,8 +714,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -723,8 +724,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -732,8 +733,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -748,8 +749,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -765,11 +766,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -786,8 +788,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -811,8 +813,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -821,8 +823,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -830,8 +832,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -846,8 +848,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -863,11 +865,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -884,8 +887,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -909,8 +912,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -919,8 +922,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -928,8 +931,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -944,8 +947,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -961,11 +964,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -982,8 +986,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -1007,8 +1011,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -1017,8 +1021,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -1026,8 +1030,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -1042,8 +1046,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -1059,11 +1063,12 @@
                             android:src="@drawable/baseline_arrow_right_alt_24" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -1080,8 +1085,8 @@
                             android:layout_gravity="center"
                             android:layout_marginEnd="5dp"
                             android:text="MCI"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <com.google.android.material.imageview.ShapeableImageView
@@ -1105,8 +1110,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="4"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -1115,8 +1120,8 @@
                                 android:layout_marginStart="4dp"
                                 android:layout_weight="1"
                                 android:text="|"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -1124,8 +1129,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1"
-                                android:textSize="24sp"
                                 android:textColor="@color/white"
+                                android:textSize="24sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
 
@@ -1140,8 +1145,8 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="5dp"
                             android:text="LIV"
-                            android:textSize="24sp"
                             android:textColor="@color/black"
+                            android:textSize="24sp"
                             android:textStyle="bold" />
                     </LinearLayout>
 
